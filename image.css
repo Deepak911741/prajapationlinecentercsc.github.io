@@ -1,0 +1,182 @@
+header {
+    border: 2px solid red;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: red;
+}
+
+.serch {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 5px auto;
+    overflow: hidden;
+}
+
+.serch input {
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 0 12px;
+
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    background: rgb(50, 103, 120);
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.slider {
+    margin: 12px auto;
+    width: 94vw;
+    margin: 12px 12px;
+    display: flex;
+
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: red;
+    border: 3px solid blue;
+    border-radius: 5px;
+
+}
+
+h2:hover {
+    background-color: aqua;
+    text-align: left;
+    border: 2px solid red;
+}
+
+.card-item1 {
+    max-width: 91vw;
+    /* background-color:green; */
+    margin: auto;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-item {
+    max-width: 91vw;
+    /* background-color:green; */
+    margin: auto;
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card2 {
+    display: flex;
+
+}
+
+p {
+    font-weight: bold;
+    background-color: red;
+    text-align: center;
+    border: 3px solid aqua;
+    color: aqua;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+p:hover {
+    background-color: silver;
+    color: rgb(237, 100, 100);
+
+}
+
+.TEXT {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+
+}
+.services .photo img {
+    height: 200px;
+}
+.services {
+    display: flex;
+}
+.photo {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    display: flex;
+}
+.photo1 {
+    display: flex;
+    flex-direction: column;
+}
+.part2 .photo1 img {
+    height: 200px;
+}
+.part2 {
+    display: flex;
+}
+
+.services .photo li {
+    font-weight: bold;
+    background-color: red;
+    border: 3px solid aqua;
+    color: aqua;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 0 90px;
+}
+.services .photo {
+    font-weight: bold;
+    /* text-align: center; */
+    color: aqua;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 0 90px;
+}
+.services .photo li:hover {
+    background-color: silver;
+    color: rgb(237, 100, 100);
+}
+
+.part2 .photo1 li {
+    font-weight: bold;
+    background-color: red;
+    text-align: center;
+    border: 3px solid aqua;
+    color: aqua;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 0 90px;
+    justify-content: center;
+}
+
+.part2 .photo1 {
+    padding: 0 60px;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.part2 .photo1 li:hover {
+    background-color: silver;
+    color: rgb(237, 100, 100);
+}
